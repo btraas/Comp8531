@@ -463,7 +463,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                     // new: 1,2,0,0, 4,8,0,0, 16,32,0,0
 
                     boolean forceRefresh = false;
-                    if(sendCount % 8 == 0) {
+                    if(sendCount % 9 == 0) {
                         System.out.println("Forcing a refresh!");
                         forceRefresh = true;
                         byte0 = (1 + 2 + 4 + 8   +  16 + 32); // force refresh
