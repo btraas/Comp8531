@@ -1,0 +1,15 @@
+
+
+// saving to file (Avg of 40)
+
+gzip (16k):                                             0.37s
+Adaptive Huffman (Nayuki):                              4.44s
+Huffman (Nayuki):                                       4.41s
+raw:                                                    0.12s
+
+// Uploading (Avg of 40)
+
+gzip (16k):                                             0.72s
+Adaptive Huffman (Nayuki):                              6.53s
+Huffman (Nayuki):                                       7.36s
+raw:
